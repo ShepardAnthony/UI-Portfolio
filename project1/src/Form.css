@@ -1,0 +1,54 @@
+#x{
+    position:absolute;
+    background:red;
+    color:white;
+    top:-20px;
+    right:-20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+#x:hover{
+    background:darkred;
+}
+
+:root{
+    color:black;
+}
+
+.form-question{
+    text-align:center;
+    font-size: 20px;
+}
+
+#hint{
+    color:grey;
+    font-size:16px;
+}
+
+.form-nums{
+    width:50px;
+}
+
+#submit{
+    color: white;
+    background-color: #536878;
+    position: absolute;
+    bottom:30px;
+    right:30px;
+    width:100px;
+    height:40px;
+    cursor:pointer;
+}
+
+#submit:disabled{
+    color: #d3d3d3;
+    background-color: #696969;
+}
+
+#submit:active{
+    background-color: #91a3b0;
+    cursor:auto;
+}

@@ -1,0 +1,117 @@
+:root{
+    color-scheme: light dark;
+    background-color: #242424;
+}
+
+.navbar{
+    background-color: #b22222;
+    color:white;
+    height:40px;
+}
+
+.navtab{
+    width:8%;
+    height:20px;
+    text-align:center;
+    padding-top:10px;
+    float:left;
+}
+
+.calendar{
+    margin:30px;
+    margin-top:50px;
+    height:100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.month{
+    text-align:center;
+    margin:auto;
+    color: white;
+    background-color: #b22222;
+    border: 2px solid #800000;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size:40px;
+}
+
+.weekdays {
+    text-align: center;
+    height:30px;
+    padding-left:20px;
+}
+
+.week{
+    text-align: center;
+    height:180px;
+    padding-left:20px;
+    
+}
+
+.weekday{
+    float:left;
+    width: 14%;
+    height:95%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:1px solid #242424;
+    background-color: #696969;
+    text-align:center;
+
+}
+
+.day{
+    float:left;
+    width: 14%;
+    height:100%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:1px solid #242424;
+    text-align:center;
+    background-color: #a9a9a9;
+
+}
+
+.date{
+    text-align:center;
+}
+
+.currentday{
+    float:left;
+    width: 14%;
+    height:100%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:1px solid #242424;
+    text-align:center;
+    background-color:#dcdcdc;
+}
+
+.currentdate{
+    color:#242424;
+}
+
+.day:hover{
+    background-color: #f4f0ec;
+    color:#242424;
+}
+
+.form{
+    position: absolute;
+    background-color: white;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
